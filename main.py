@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = f"{working_dir}/trained_model/trained_fashion_mnist_model.h5"
+model_path = f"{working_dir}/trained_fashion_mnist_model.h5"
 # Load the pre-trained model
 model = tf.keras.models.load_model(model_path)
 
